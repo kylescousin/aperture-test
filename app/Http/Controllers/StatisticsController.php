@@ -8,7 +8,7 @@ class StatisticsController extends Controller
 {
     public function dashboard()
     {
-        dd(cache('logs'));
+       
         return view('welcome', ['logs' => cache('logs')]);
     }
 }
